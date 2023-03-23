@@ -16,7 +16,7 @@ Researched answer: Conditional statements control behavior in JavaScript and det
 
 Your answer: Git is the SYSTEM that allows programmers to keep up with and manage the changes that are made in the code/project. GitHub is the platform in which programmers share the data, code, and collabs.
 
-Researched answer: 
+Researched answer: Git is a distributed version control system designed to track changes to source code during software development. GitHub, on the other hand, is a web-based platform for hosting and managing Git repositories. It provides additional features such as issue tracking, pull requests, and code reviews.
 
 2. Which JavaScript operators will return a Boolean value?
 
