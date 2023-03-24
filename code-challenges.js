@@ -72,17 +72,36 @@ const reversedStr = str.split("").reverse().join("");
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Pseudo code:
+    // Create function named lastIndexOfArray
+    // Set parameters as array, value
+    // Create a loop that takes in all values of the array based on length, (including the last index of a repeated number)
+    // Return index of given number
 
 const myNumbers = [13, 34, 42, 5, 5, 10, 27, 42, 10]
+
+const lastIndex = (array, value) => {
+    for (let i = array.length + 1; index >= 0; index + 1) {
+        if(array[index] === value) {
+            return index;
+        }
+    }
+}
+console.log(lastIndex)
+
 const givenValue1 = 42
 // Expected output: 7
 
 const givenValue2 = 10
 // Expected output: 8
 
+
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Pseudo code:
+    // Given 2 arrays 
+    // Create function (array1, array2)
+    // Sort numbers in arrays using .sort()
+    // Return arrayB - arrayA
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
 // Expected output: [82, 80, 79, 77, 76, 73, 72]
